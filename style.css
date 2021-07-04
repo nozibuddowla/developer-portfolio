@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: orange;
+}
+
+/* hero section */
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 45%;
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 65px;
+    padding-left: 25px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width p {
+    text-align: justify;
+    color: dimgray;
+}
+
+.link-button {
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 45px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.link-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.half-width button a:hover{
+    color: dimgray;
+}
