@@ -10,14 +10,17 @@ h1 {
 h1 span {
     color: orange;
 }
-p{
+
+p {
     color: dimgray;
 }
+
 /* top banner section */
 .top-banner {
     background: url(images/top-banner.png) no-repeat;
 }
-section{
+
+section {
     height: 500px;
     padding-bottom: 150px;
 }
@@ -25,6 +28,7 @@ section{
 .flexible-container {
     display: flex;
 }
+
 .half-width {
     width: 40%;
     float: left;
@@ -53,33 +57,42 @@ section{
     color: white;
     font-weight: bold;
 }
-.link-button a:hover{
+
+.link-button a:hover {
     color: dimgray;
 }
+
 /* dream section */
-.dream-big{
+.dream-big {
     background: url(images/dream-bg.png) no-repeat right;
 }
-.xp-area{
+
+.xp-area {
     background: url(images/exp-bg.png) no-repeat left;
 }
+
 .xp-item h2 {
     font-size: 40px;
 }
-.xp-area h3{
+
+.xp-area h3 {
     color: orange;
 }
-.xp-item{
+
+.xp-item {
     box-shadow: 5px 7px 40px gray;
     border-left: 7px solid;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
-#full-stack-xp{
+
+#full-stack-xp {
     border-image: linear-gradient(lightsalmon, tomato) 27;
 }
-#web-dev-xp{
+
+#web-dev-xp {
     border-image: linear-gradient(blue, cyan) 27;
 }
-footer p{
+
+footer p {
     text-align: center;
 }
