@@ -11,16 +11,16 @@ h1 span {
     color: orange;
 }
 
-/* hero section */
+/* top banner section */
 .top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    background: url(images/top-banner.png) no-repeat;
 }
 section {
     display: flex;
+    padding-bottom: 150px;
 }
 .half-width {
-    width: 45%;
+    width: 40%;
     float: left;
     /* border: 1px solid red; */
     margin-left: 65px;
@@ -48,6 +48,10 @@ section {
     color: white;
     font-weight: bold;
 }
-.half-width button a:hover{
+.link-button a:hover{
     color: dimgray;
+}
+/* dream section */
+.dream-big{
+    background: url(images/dream-bg.png) no-repeat right;
 }
